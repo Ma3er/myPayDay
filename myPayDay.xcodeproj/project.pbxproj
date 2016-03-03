@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD283BF91B6E9DA100B78C15 /* Untitled-2.tif in Resources */ = {isa = PBXBuildFile; fileRef = BD283BF81B6E9DA100B78C15 /* Untitled-2.tif */; };
+		BD283BFB1B6E9E3700B78C15 /* Untitled-3.tif in Resources */ = {isa = PBXBuildFile; fileRef = BD283BFA1B6E9E3700B78C15 /* Untitled-3.tif */; };
+		BD283BFD1B6E9F5200B78C15 /* Untitled-4.tif in Resources */ = {isa = PBXBuildFile; fileRef = BD283BFC1B6E9F5200B78C15 /* Untitled-4.tif */; };
+		BD283BFF1B6E9FBD00B78C15 /* Untitled-5.tif in Resources */ = {isa = PBXBuildFile; fileRef = BD283BFE1B6E9FBD00B78C15 /* Untitled-5.tif */; };
+		BD4DD43F1B6693310018BD8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4DD43E1B6693310018BD8F /* main.m */; };
+		BD4DD4421B6693310018BD8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4DD4411B6693310018BD8F /* AppDelegate.m */; };
+		BD4DD4451B6693310018BD8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4DD4441B6693310018BD8F /* ViewController.m */; };
+		BD4DD4481B6693310018BD8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4DD4461B6693310018BD8F /* Main.storyboard */; };
+		BD4DD44B1B6693310018BD8F /* myPayDay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD4DD4491B6693310018BD8F /* myPayDay.xcdatamodeld */; };
+		BD4DD44D1B6693310018BD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4DD44C1B6693310018BD8F /* Assets.xcassets */; };
+		BD4DD4501B6693310018BD8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4DD44E1B6693310018BD8F /* LaunchScreen.storyboard */; };
+		BD4DD45B1B6693310018BD8F /* myPayDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4DD45A1B6693310018BD8F /* myPayDayTests.m */; };
+		BD4DD4661B6693310018BD8F /* myPayDayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4DD4651B6693310018BD8F /* myPayDayUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD4DD4571B6693310018BD8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4DD4321B6693310018BD8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4DD4391B6693310018BD8F;
+			remoteInfo = myPayDay;
+		};
+		BD4DD4621B6693310018BD8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4DD4321B6693310018BD8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4DD4391B6693310018BD8F;
+			remoteInfo = myPayDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD283BF81B6E9DA100B78C15 /* Untitled-2.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Untitled-2.tif"; sourceTree = "<group>"; };
+		BD283BFA1B6E9E3700B78C15 /* Untitled-3.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Untitled-3.tif"; sourceTree = "<group>"; };
+		BD283BFC1B6E9F5200B78C15 /* Untitled-4.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Untitled-4.tif"; sourceTree = "<group>"; };
+		BD283BFE1B6E9FBD00B78C15 /* Untitled-5.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Untitled-5.tif"; sourceTree = "<group>"; };
+		BD4DD43A1B6693310018BD8F /* myPayDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myPayDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4DD43E1B6693310018BD8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD4DD4401B6693310018BD8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD4DD4411B6693310018BD8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD4DD4431B6693310018BD8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD4DD4441B6693310018BD8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD4DD4471B6693310018BD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD4DD44A1B6693310018BD8F /* myPayDay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myPayDay.xcdatamodel; sourceTree = "<group>"; };
+		BD4DD44C1B6693310018BD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD4DD44F1B6693310018BD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD4DD4511B6693310018BD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4DD4561B6693310018BD8F /* myPayDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myPayDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4DD45A1B6693310018BD8F /* myPayDayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myPayDayTests.m; sourceTree = "<group>"; };
+		BD4DD45C1B6693310018BD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4DD4611B6693310018BD8F /* myPayDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myPayDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4DD4651B6693310018BD8F /* myPayDayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myPayDayUITests.m; sourceTree = "<group>"; };
+		BD4DD4671B6693310018BD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD4DD4371B6693310018BD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4DD4531B6693310018BD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4DD45E1B6693310018BD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD4DD4311B6693310018BD8F = {
+			isa = PBXGroup;
+			children = (
+				BD4DD43C1B6693310018BD8F /* myPayDay */,
+				BD4DD4591B6693310018BD8F /* myPayDayTests */,
+				BD4DD4641B6693310018BD8F /* myPayDayUITests */,
+				BD4DD43B1B6693310018BD8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD4DD43B1B6693310018BD8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD4DD43A1B6693310018BD8F /* myPayDay.app */,
+				BD4DD4561B6693310018BD8F /* myPayDayTests.xctest */,
+				BD4DD4611B6693310018BD8F /* myPayDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD4DD43C1B6693310018BD8F /* myPayDay */ = {
+			isa = PBXGroup;
+			children = (
+				BD4DD4401B6693310018BD8F /* AppDelegate.h */,
+				BD4DD4411B6693310018BD8F /* AppDelegate.m */,
+				BD4DD4431B6693310018BD8F /* ViewController.h */,
+				BD4DD4441B6693310018BD8F /* ViewController.m */,
+				BD4DD4461B6693310018BD8F /* Main.storyboard */,
+				BD4DD44C1B6693310018BD8F /* Assets.xcassets */,
+				BD4DD44E1B6693310018BD8F /* LaunchScreen.storyboard */,
+				BD4DD4511B6693310018BD8F /* Info.plist */,
+				BD4DD4491B6693310018BD8F /* myPayDay.xcdatamodeld */,
+				BD4DD43D1B6693310018BD8F /* Supporting Files */,
+			);
+			path = myPayDay;
+			sourceTree = "<group>";
+		};
+		BD4DD43D1B6693310018BD8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD283BFE1B6E9FBD00B78C15 /* Untitled-5.tif */,
+				BD283BF81B6E9DA100B78C15 /* Untitled-2.tif */,
+				BD283BFC1B6E9F5200B78C15 /* Untitled-4.tif */,
+				BD283BFA1B6E9E3700B78C15 /* Untitled-3.tif */,
+				BD4DD43E1B6693310018BD8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD4DD4591B6693310018BD8F /* myPayDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4DD45A1B6693310018BD8F /* myPayDayTests.m */,
+				BD4DD45C1B6693310018BD8F /* Info.plist */,
+			);
+			path = myPayDayTests;
+			sourceTree = "<group>";
+		};
+		BD4DD4641B6693310018BD8F /* myPayDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4DD4651B6693310018BD8F /* myPayDayUITests.m */,
+				BD4DD4671B6693310018BD8F /* Info.plist */,
+			);
+			path = myPayDayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD4DD4391B6693310018BD8F /* myPayDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4DD46A1B6693310018BD8F /* Build configuration list for PBXNativeTarget "myPayDay" */;
+			buildPhases = (
+				BD4DD4361B6693310018BD8F /* Sources */,
+				BD4DD4371B6693310018BD8F /* Frameworks */,
+				BD4DD4381B6693310018BD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myPayDay;
+			productName = myPayDay;
+			productReference = BD4DD43A1B6693310018BD8F /* myPayDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD4DD4551B6693310018BD8F /* myPayDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4DD46D1B6693310018BD8F /* Build configuration list for PBXNativeTarget "myPayDayTests" */;
+			buildPhases = (
+				BD4DD4521B6693310018BD8F /* Sources */,
+				BD4DD4531B6693310018BD8F /* Frameworks */,
+				BD4DD4541B6693310018BD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4DD4581B6693310018BD8F /* PBXTargetDependency */,
+			);
+			name = myPayDayTests;
+			productName = myPayDayTests;
+			productReference = BD4DD4561B6693310018BD8F /* myPayDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD4DD4601B6693310018BD8F /* myPayDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4DD4701B6693310018BD8F /* Build configuration list for PBXNativeTarget "myPayDayUITests" */;
+			buildPhases = (
+				BD4DD45D1B6693310018BD8F /* Sources */,
+				BD4DD45E1B6693310018BD8F /* Frameworks */,
+				BD4DD45F1B6693310018BD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4DD4631B6693310018BD8F /* PBXTargetDependency */,
+			);
+			name = myPayDayUITests;
+			productName = myPayDayUITests;
+			productReference = BD4DD4611B6693310018BD8F /* myPayDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD4DD4321B6693310018BD8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = dwayne;
+				TargetAttributes = {
+					BD4DD4391B6693310018BD8F = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 46G6Q8DN97;
+					};
+					BD4DD4551B6693310018BD8F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BD4DD4391B6693310018BD8F;
+					};
+					BD4DD4601B6693310018BD8F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BD4DD4391B6693310018BD8F;
+					};
+				};
+			};
+			buildConfigurationList = BD4DD4351B6693310018BD8F /* Build configuration list for PBXProject "myPayDay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD4DD4311B6693310018BD8F;
+			productRefGroup = BD4DD43B1B6693310018BD8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD4DD4391B6693310018BD8F /* myPayDay */,
+				BD4DD4551B6693310018BD8F /* myPayDayTests */,
+				BD4DD4601B6693310018BD8F /* myPayDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD4DD4381B6693310018BD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4DD4501B6693310018BD8F /* LaunchScreen.storyboard in Resources */,
+				BD283BFD1B6E9F5200B78C15 /* Untitled-4.tif in Resources */,
+				BD283BFB1B6E9E3700B78C15 /* Untitled-3.tif in Resources */,
+				BD4DD44D1B6693310018BD8F /* Assets.xcassets in Resources */,
+				BD4DD4481B6693310018BD8F /* Main.storyboard in Resources */,
+				BD283BF91B6E9DA100B78C15 /* Untitled-2.tif in Resources */,
+				BD283BFF1B6E9FBD00B78C15 /* Untitled-5.tif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4DD4541B6693310018BD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4DD45F1B6693310018BD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD4DD4361B6693310018BD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4DD4451B6693310018BD8F /* ViewController.m in Sources */,
+				BD4DD4421B6693310018BD8F /* AppDelegate.m in Sources */,
+				BD4DD43F1B6693310018BD8F /* main.m in Sources */,
+				BD4DD44B1B6693310018BD8F /* myPayDay.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4DD4521B6693310018BD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4DD45B1B6693310018BD8F /* myPayDayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4DD45D1B6693310018BD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4DD4661B6693310018BD8F /* myPayDayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD4DD4581B6693310018BD8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4DD4391B6693310018BD8F /* myPayDay */;
+			targetProxy = BD4DD4571B6693310018BD8F /* PBXContainerItemProxy */;
+		};
+		BD4DD4631B6693310018BD8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4DD4391B6693310018BD8F /* myPayDay */;
+			targetProxy = BD4DD4621B6693310018BD8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD4DD4461B6693310018BD8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4DD4471B6693310018BD8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD4DD44E1B6693310018BD8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4DD44F1B6693310018BD8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD4DD4681B6693310018BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD4DD4691B6693310018BD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD4DD46B1B6693310018BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = myPayDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmdesigns.myPayDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BD4DD46C1B6693310018BD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = myPayDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmdesigns.myPayDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		BD4DD46E1B6693310018BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = myPayDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmdesigns.myPayDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myPayDay.app/myPayDay";
+			};
+			name = Debug;
+		};
+		BD4DD46F1B6693310018BD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = myPayDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmdesigns.myPayDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myPayDay.app/myPayDay";
+			};
+			name = Release;
+		};
+		BD4DD4711B6693310018BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = myPayDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmdesigns.myPayDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = myPayDay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BD4DD4721B6693310018BD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = myPayDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmdesigns.myPayDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = myPayDay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD4DD4351B6693310018BD8F /* Build configuration list for PBXProject "myPayDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4DD4681B6693310018BD8F /* Debug */,
+				BD4DD4691B6693310018BD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4DD46A1B6693310018BD8F /* Build configuration list for PBXNativeTarget "myPayDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4DD46B1B6693310018BD8F /* Debug */,
+				BD4DD46C1B6693310018BD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4DD46D1B6693310018BD8F /* Build configuration list for PBXNativeTarget "myPayDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4DD46E1B6693310018BD8F /* Debug */,
+				BD4DD46F1B6693310018BD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4DD4701B6693310018BD8F /* Build configuration list for PBXNativeTarget "myPayDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4DD4711B6693310018BD8F /* Debug */,
+				BD4DD4721B6693310018BD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD4DD4491B6693310018BD8F /* myPayDay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD4DD44A1B6693310018BD8F /* myPayDay.xcdatamodel */,
+			);
+			currentVersion = BD4DD44A1B6693310018BD8F /* myPayDay.xcdatamodel */;
+			path = myPayDay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD4DD4321B6693310018BD8F /* Project object */;
+}
